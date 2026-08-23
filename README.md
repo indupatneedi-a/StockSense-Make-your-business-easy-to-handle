@@ -1,20 +1,89 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📦 StockSense — Make Your Business Easy to Handle
 
-# Run and deploy your AI Studio app
+StockSense is a business management application designed to help small businesses manage their products, inventory, purchases, sales, and profits in one place.
 
-This contains everything you need to run your app locally.
+The goal of StockSense is to make day-to-day business management simpler, more organized, and easier to understand through a clean and user-friendly interface.
 
-View your app in AI Studio: https://ai.studio/apps/801cc9b9-fc75-4f8f-9f2d-0da031c17b35
+---
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+### 📊 Dashboard
+Get a quick overview of important business information, including stock, sales, purchases, and profit.
 
+### 📦 Inventory Management
+Manage your products and keep track of available stock.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🛒 Sales Management
+Record sales and monitor the products that are being sold.
+
+### 🧾 Purchase Management
+Track products purchased for the business along with their purchase prices.
+
+### 💰 Profit Tracking
+Calculate and monitor profits based on purchase prices and selling prices.
+
+### 📈 Business Insights
+View important business information in an organized way to better understand business performance.
+
+### 🤖 AI-Powered Features
+Uses AI capabilities to assist with selected application functionality and provide a smarter user experience.
+
+---
+
+## 🎯 Why StockSense?
+
+Managing a small business using notebooks or multiple spreadsheets can become difficult as the number of products and transactions increases.
+
+StockSense brings important business information together in one application so that users can easily manage:
+
+- Products
+- Available stock
+- Purchases
+- Sales
+- Purchase prices
+- Selling prices
+- Profit
+- Business performance
+
+The goal is to reduce manual work and make business information easier to access.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **JavaScript**
+- **Google Gemini API**
+- **Bun / npm**
+- **HTML**
+- **CSS**
+
+---
+
+## 📁 Project Structure
+
+---text 
+StockSense/
+│
+├── assets/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── services/
+│   ├── types/
+│   └── views/
+│
+├── .env.example
+├── .gitignore
+├── bun.lock
+├── index.html
+├── package.json
+├── server.ts
+├── tsconfig.json
+└── vite.config.ts
+---
