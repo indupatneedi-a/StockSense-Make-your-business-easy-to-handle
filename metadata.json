@@ -1,0 +1,6 @@
+{
+  "name": "StockSense",
+  "description": "Make your business easy to handle. Manage inventory, sales billing, stock tracking, purchases, and profit analytics with an intelligent assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
